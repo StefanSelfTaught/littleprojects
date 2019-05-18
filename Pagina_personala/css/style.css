@@ -1,0 +1,172 @@
+
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+  	background:#f4f4f4;
+}
+body ,h2,h3,h4,h5,h6{
+	    font-family: 'Asap', sans-serif;
+}
+h1{
+	font-family: 'Bevan', cursive;
+}	
+/*-- header --*/
+#home {
+    background: url(http://computerarts.dk/wp-content/uploads/2014/04/7.jpg) center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height:650px;
+	position: relative;
+}
+.top-header {
+	padding: 1.5em 0;
+} 
+.title h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color:#fff;
+	letter-spacing:3px;
+}
+.title h1 a{
+	text-decoration:none;
+	 color:#fff;
+}
+.title{
+	text-align:center;
+	padding:20px 0px 40px 0px;
+}
+/*--banner-info--*/
+.banner-info {
+    background:rgba(23, 20, 20, 0.58);
+	border-radius:30px;
+	border:2px solid black;
+}
+.header-right {
+    padding:3em;
+}
+.header-left {
+    padding: 3em;
+}
+ul.address-text {
+    padding: 0;
+}
+ul.address {
+    padding: 0;
+}
+.header-right img {
+    width: 100%;
+    margin-top: 19px;
+	max-width:270px;
+	border-radius:30px;
+	border:2px solid black;
+}
+.header-left {
+    padding-left: 3em;
+}
+.header-left h5 {
+    font-size:1em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+ul.address {
+    margin-top: 2em;
+    border-top: 2px solid #AFAFAF;
+    padding-top: 0.5em;
+}
+ul.address li {
+    display: block;
+}
+ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 1em;
+	font-weight: 400;
+}
+ul.address li ul.address-text li:nth-child(1){
+	width: 19%;
+}
+ul.address li ul.address-text li a {
+    color: #fff;
+	text-decoration:none;
+}
+
+ul.address-text b {
+    color:#fff;
+}
+
+/*-- about --*/
+.about-left-grid{
+	float:right;
+	margin-left:30px;
+}
+.about-left-grid h2{
+	color:#191919;
+	font-size:2em;
+}
+.about-left-grid h2 span{
+	font-weight:700;
+}
+.about-left-grid p{
+    color: #666666;
+    font-size:1em;
+    line-height: 2em;
+    margin-top: 1.5em;
+} 
+.about-left {
+    padding: 4.5em 0 4.7em 0;
+    float: right;
+    background: #f4f4f4;
+}
+.about-right{
+	float: left;
+	padding:0;
+	background:url(../images/abouteu.jpg) no-repeat 0px 0px;
+	height: 500px;
+	background-size: auto auto;
+   -o-background-size: cover;
+   -webkit-background-size: cover;			
+   -moz-background-size: cover;
+   -ms-background-size: cover;
+}
+/* -- social-media --*/
+.social-media ul {
+	display:flex;
+	list-style:none;
+	position:absolute;
+}
+.social-media ul li a{
+	width:80px;
+	height:80px;
+	line-height:2;
+	background-color:#BEBEBE;
+	font-size:35px;
+	margin:0 8px;
+	display:block;
+	text-align:center;
+	border-radius:45%;
+	border:1.7px solid black;
+	overflow:hidden;
+	box-shadow: 10px 10px 51px 10px rgba(0, 0, 0, 0.05);
+	transition: all 0.5s ease;
+}
+.social-media ul li:nth-child(1) a:hover{
+	background:#3b5998;
+	color:white;
+}
+.social-media ul li:nth-child(2) a:hover{
+	background:#e4405f;
+	color:white;
+}
+.social-media ul li:nth-child(3) a:hover{
+	background:#ff0000;
+	color:white;
+}
+.about-left-grid p{
+	text-indent: 5%;
+}
